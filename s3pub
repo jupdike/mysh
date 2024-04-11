@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/usr/local/bin/s3cmd --acl-public sync $1 $2
+

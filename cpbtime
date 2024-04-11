@@ -1,0 +1,3 @@
+#!/usr/local/bin/fish
+
+SetFile -d (GetFileInfo -d $argv[1]) $argv[2]

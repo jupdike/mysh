@@ -1,0 +1,3 @@
+#!/bin/sh
+find . | grep -i "/bin$" | grep -v node_modules
+find . | grep -i "/obj$"
