@@ -1,0 +1,4 @@
+#!/bin/sh
+rm -i *~
+rm -i .*~
+rm -i .DS_Store
