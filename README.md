@@ -3,7 +3,7 @@ My shell scripts I use all the time, available on Github so I can pull them down
 
 # Python3 / mython3 / mip3
 
-After you install Python3 with Homebrew on a frehs install of macOS, trying to
+After you install Python3 with Homebrew on a fresh install of macOS, trying to
 use pip3 results in an error like this:
 
 ```
@@ -32,9 +32,9 @@ Note that for some reason you must run the command twice to get the
 After that always use `mython3` and `mip3` intead of `python3` and `pip3`
 to have access to user-installed packages, installed with `mip3 install xyz`
 
-Actually, just use
+Actually, in actual Python scripts, just use
 
 #!/Users/<USERNAME>/pyvenv/bin/python3
 
 and it will use your packages, installed with mip3 (mython3 cannot be used
-in #! in Pythons cripts for whatever reason).
+in #! in Pythons scripts for whatever reason).
