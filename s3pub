@@ -1,4 +1,4 @@
 #!/bin/sh
 
-/usr/local/bin/s3cmd --acl-public sync $1 $2
+/opt/homebrew/bin/s3cmd --acl-public sync $1 $2
 
