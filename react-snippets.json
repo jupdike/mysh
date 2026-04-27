@@ -1,0 +1,10 @@
+{
+  "A Component": {
+    "prefix": "A",
+    "body": [
+      "<A href=\"$1\">$2</A>"
+    ],
+    "description": "Custom Ahref component"
+  }
+}
+
